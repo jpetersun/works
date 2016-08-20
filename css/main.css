@@ -1,0 +1,83 @@
+/*Body*/
+
+body {
+	background-color: #000;
+	font: 16px 'Ledger', serif;
+}
+
+/*Headings*/
+
+h1 {
+	color: #fff;
+}
+
+h2,
+h3 {
+	color: #c12640;
+}
+
+hr {
+	background-color: #a71930;
+	border: none;
+	height: 4px;
+}
+
+/*Logo*/
+
+.title-logo {
+	margin-top: 15px;
+}
+
+.title-logo svg {
+	background-image: linear-gradient(to bottom,#f8f8f8 0,#d8d8d8 100%);
+	padding: 10px;
+}
+
+.udacity-logo {
+	max-width: 32px;
+	margin-bottom: 17px;
+}
+
+/*Social Icons*/
+
+a {
+	margin: 10px;
+	padding: 0.5em;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #c12640;
+	text-decoration: none;
+}
+
+/*Media Queries*/
+
+@media (max-width: 991px) {
+	.title-logo {
+		float: left;
+	}
+}
+
+@media (max-width: 526px) {
+	.title-logo {
+		float: left;
+	}
+}
+
+@media (max-width: 380px) {
+	h1,
+	h2,
+	h3,
+	body {
+		font-size: 1.5em;
+	}
+}
+
+.fa {
+	color: #e7e7e7;
+}
+
+.btn-project-link > a {
+	color: #c12640;
+}

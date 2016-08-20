@@ -1,0 +1,13 @@
+/*Image fixes*/
+
+img {
+	width: 100%;
+}
+
+#udacity-logo {
+	 margin-bottom: 16px;
+	 width: 32px;
+}
+/**.galaxy-top-edge {
+	margin-top: 20px;
+}*/
